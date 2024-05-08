@@ -1,9 +1,17 @@
+header {
+    color: white;
+}
+
+body {
+    background-image: url("../img/fondo-pacman.jpg");
+}
+
 img {
     height: 100px;
     width: 100px;
 }
 
-#packman {
+#centered {
     display: flex;
     justify-content: center;
     align-items: center;
