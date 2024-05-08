@@ -1,0 +1,10 @@
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#packman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
