@@ -1,17 +1,26 @@
-header {
-    color: white;
+* {
+    box-sizing: border-box;
 }
 
 body {
     background-image: url("../img/fondo-pacman.jpg");
+    color: white;
+}
+
+header {
+    height: 150px;
 }
 
 img {
+    height: 100%;
+}
+
+.resize100  {
     height: 100px;
     width: 100px;
 }
 
-#centered {
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;
